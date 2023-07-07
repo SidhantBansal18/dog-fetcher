@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import { useNavigate } from "react-router-dom";
 
 let nextLink = "";
 let prevLink = "";
@@ -15,6 +16,7 @@ export const DogFinder = () => {
 
     const [dogsBreeds,setDogBreeds] = useState([])
     const [dogData,setDogData] = useState([])
+    const navigation = useNavigate();
     
     async function getRequest(){
         fetch(url, {credentials: "include"})
@@ -90,6 +92,10 @@ export const DogFinder = () => {
             getRequest()
         }
     }
+
+    const logout = async () => {
+        navigation("/");
+    }
     
 
     useEffect(()=>{
@@ -115,6 +121,9 @@ export const DogFinder = () => {
             <div className="navigation-buttons">
                 <button onClick={prevPageFunc}>Previous Page</button>
                 <button onClick={nextPageFunc}>Next Page</button>                   
+            </div>
+            <div className="logout-button">
+                <button onClick={logout}>Logout</button> 
             </div>
             <div className="main-data-container">     
                 {   dogData.map(x=>(

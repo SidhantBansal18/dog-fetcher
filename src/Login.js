@@ -20,15 +20,6 @@ export const Login = () => {
     const[email, setEmail] = useState('');
     const navigation = useNavigate();
 
-    // useEffect(()=>{
-
-    //     console.log("first")
-
-    //     return ()=>{
-    //         console.log("sec")
-    //     }
-    // },[])
-
     const handleSubmit = async e => {
         e.preventDefault();
         console.log(name + " " + email);
