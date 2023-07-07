@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dog-fetcher/static/css/main.b33eb73e.css",
-    "main.js": "/dog-fetcher/static/js/main.f5fc9b38.js",
+    "main.js": "/dog-fetcher/static/js/main.6a65b13c.js",
     "static/js/787.ddbb9717.chunk.js": "/dog-fetcher/static/js/787.ddbb9717.chunk.js",
     "index.html": "/dog-fetcher/index.html",
     "main.b33eb73e.css.map": "/dog-fetcher/static/css/main.b33eb73e.css.map",
-    "main.f5fc9b38.js.map": "/dog-fetcher/static/js/main.f5fc9b38.js.map",
+    "main.6a65b13c.js.map": "/dog-fetcher/static/js/main.6a65b13c.js.map",
     "787.ddbb9717.chunk.js.map": "/dog-fetcher/static/js/787.ddbb9717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b33eb73e.css",
-    "static/js/main.f5fc9b38.js"
+    "static/js/main.6a65b13c.js"
   ]
 }
